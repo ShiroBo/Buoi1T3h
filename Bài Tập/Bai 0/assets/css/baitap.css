@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hinh{
+    width: 90px;
+    height: 180px;
+    /* display: flex; */
+    margin:  auto;
+    
+}
+.hinh1{
+    width: 90px;
+    height: 90px;
+    background-color: burlywood;
+}
+.hinh2{
+    margin-top: 3px;
+    width: 90px;
+    height: 90px;
+    background-color: red;
+}

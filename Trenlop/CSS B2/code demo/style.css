@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: black;    
+}
+.logo{
+    height: 50px;
+}
+.container{
+    width: 1200px;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+ul.menu{
+    display: flex;
+    list-style: none;
+    width: 800px;
+    justify-content: space-around;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+li.product{
+    position: relative;
+}
+li.product:hover ul{
+    display: flex;
+}
+li.product ul{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    flex-direction: column;
+    display: none;
+
+}
+li.product ul li{
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 20px;
+    color: white;
+    height: 70px;
+}
+
+h3.relative{
+    position: relative;
+    top: 50px;
+}
+
+header ul li.product-menu ul{
+    width: 300px;
+    height: 200px;
+    background-color: brown;
+}
