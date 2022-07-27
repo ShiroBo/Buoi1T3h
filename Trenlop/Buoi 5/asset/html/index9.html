@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media screen and ( min-width: 500px) {
+            /* Đoạn css áp dụng cho màn hình có độ rộng từ 600px trở lên */
+            body{
+                background-color: aqua;
+            }
+            .demo1{
+                width: 200px;
+                height: 200px;
+                background-color: rgb(167, 38, 38);
+            }
+        }
+        @media screen and ( min-height: 500px) {
+            /* Đoạn css áp dụng cho màn hình có độ rộng từ 600px trở lên */
+            body{
+                background-color: aqua;
+            }
+            .demo1{
+                width: 200px;
+                height: 200px;
+                background-color: rgb(167, 38, 38);
+            }
+        }
+    </style>
+</head>
+<body>
+    <pre>
+        media query => responsive ( thiết kế đáp ứng )
+        vd laptop có 3 cột 
+        tab máy tính bảng 2 cột 
+        mobile có 1 cột 
+        https://www.w3schools.com/css/css3_mediaqueries.asp
+
+        *** 
+        screen là thiết bị media : computer , tab , mobile 
+        min-width: 480px : biểu thức điều kiện hiểu đơn giản là áp dụng cho màn hình có độ rộng từ 480px trở lên 
+        @media screen and (min-width: 480px) {
+            body {
+                background-color: lightgreen;
+            }
+            p {
+                font-size: 14px;
+            }
+        } <!-- end screen media  -->
+    </pre>
+    <div class="demo1">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio ea dolore veritatis eius et perferendis consectetur illo nisi? Magnam quod modi eligendi quidem sint molestiae facilis voluptas labore inventore quia?
+    </div>
+</body>
+</html>
